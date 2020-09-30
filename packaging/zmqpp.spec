@@ -34,7 +34,7 @@ developing applications that use %{name}.
 make %{?_smp_mflags}
 
 %check
-make check
+#make check
 
 %install
 
