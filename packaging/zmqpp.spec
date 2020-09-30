@@ -9,7 +9,7 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRoot:      %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 BuildRequires:  gcc-c++
-BuildRequires:  zeromq3-devel
+BuildRequires:  zeromq-devel
 BuildRequires:  boost-devel
 
 %description
